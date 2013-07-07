@@ -3022,3 +3022,9 @@ body {
 		background-image: url('images/icon-social-podcast@2x.png');
 	}
 }
+
+/* Patch for All-In-One-Event-Calendar */
+
+.article .ai1ec-container ul li:before {
+	background-image: none;
+}
